@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul li .nav-link{
+    color: #000;
+    margin-right: 20px;
+}
+
+ul li .nav-link:hover{
+    color: red;
+}
+
+.col-12 ul{
+    list-style-type: none;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+.col-12 ul li a{
+    text-decoration: none;
+    font-size: 12px;
+    color: black;
+    margin-right: 10px;
+}
+
+.col-12 ul li a:hover{
+    color: gray;
+}
+
+@media (max-width: 800px) { 
+   
+    .col-6 #right-text{
+        position: absolute;
+
+    }
+ }
